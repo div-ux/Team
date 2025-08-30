@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEAM LEGAL</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: black;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: linear-gradient(90deg, red, black);
+      padding: 20px;
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: bold;
+      letter-spacing: 3px;
+      color: #fff;
+      animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px red; }
+      to { text-shadow: 0 0 25px red, 0 0 50px crimson; }
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #111;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: red;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+      transition: transform 0.5s;
+    }
+
+    .section:hover {
+      transform: scale(1.05);
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: red;
+    }
+
+    .section p {
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.6;
+      font-size: 1.1rem;
+      color: #ddd;
+    }
+
+    .contact-box {
+      background: #111;
+      padding: 30px;
+      margin: 40px auto;
+      max-width: 500px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px red;
+    }
+
+    .contact-box h2 {
+      color: red;
+      margin-bottom: 15px;
+    }
+
+    .contact-box input, .contact-box textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+    }
+
+    .contact-box button {
+      background: red;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .contact-box button:hover {
+      background: darkred;
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+
+  <header>TEAM LEGAL</header>
+
+  <nav>
+    <a href="#verified">Meta Verified</a>
+    <a href="#ban">Paid ID Ban</a>
+    <a href="#unban">Paid ID Unban</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="verified" class="section">
+    <h2>Meta Verified</h2>
+    <p>
+      TEAM LEGAL provides trusted services for Meta Verification. We ensure your account receives the official blue checkmark, offering credibility and protection against impersonation.
+    </p>
+  </section>
+
+  <section id="ban" class="section">
+    <h2>Paid ID Ban</h2>
+    <p>
+      If your account faces restrictions or bans, TEAM LEGAL assists in managing and resolving Paid ID Ban cases with professional legal expertise.
+    </p>
+  </section>
+
+  <section id="unban" class="section">
+    <h2>Paid ID Unban</h2>
+    <p>
+      Our experts specialize in Paid ID Unban solutions, helping you restore access and continue your online journey without interruption.
+    </p>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="contact-box">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 TEAM LEGAL | All Rights Reserved
+  </footer>
+
+</body>
+</html>
